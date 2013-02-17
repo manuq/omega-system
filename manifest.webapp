@@ -1,0 +1,12 @@
+{
+    "name": "System",
+    "type": "certified",
+    "description": "Main System",
+    "launch_path": "/index.html",
+    "permissions": {
+        "browser": {},
+        "webapps-manage": {},
+        "systemXHR": {},
+        "embed-apps": {}
+    }
+}
