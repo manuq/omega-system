@@ -95,4 +95,6 @@ define(function(require) {
     navigator.mozApps.mgmt.oninstall = function(event) {
         home.addLauncher(event.application); 
     };
+
+    home.addXO();
 });
