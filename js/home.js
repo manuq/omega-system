@@ -8,7 +8,9 @@ define(function(require) {
     home.addLauncher = function(app) {
         var button = document.createElement("button");
 
-        var iconInfo = {"uri": app.origin + app.manifest.icons["55"]};
+        var iconInfo = {"uri": app.origin + app.manifest.icons["55"],
+                        "fillColor": "transparent",
+                        "strokeColor": "grey"};
         icons.load(iconInfo, function(data) {
             button.style.backgroundImage = "url('" + data + "')";
         });
