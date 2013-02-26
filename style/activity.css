@@ -14,7 +14,6 @@ body {
 }
 
 #launchers-div {
-    margin: 200px;
 }
 
 .appWindow > iframe {
@@ -40,4 +39,29 @@ button {
     height: 110px;
     top: calc(50% - 55px);
     left: calc(50% - 55px);
+}
+
+/* the following should be in artwork */
+
+menu[type="toolbar"] {
+    position: absolute;
+    background-color: #282828;
+    width: 100%;
+    height: 55px;
+    margin: 0;
+    padding: 0;
+}
+
+input[type="text"] {
+    height: 30px;
+    border-radius: 15px;
+    background-color: #E5E5E5;
+}
+
+input[type="text"]:focus {
+    background-color: white;
+}
+
+#search-input {
+    margin: 12px 35px 13px 35px;
 }
